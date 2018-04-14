@@ -10,10 +10,14 @@ module ApplicationHelper
 	end
 
 	def source_helper(layout_name)
-		if session[:source]
+        if session[:source]
 			greeting = "Thanks for visitng me from #{session[:source]} and you are on layout #{layout_name}"
       content_tag(:p, greeting, class: "source-greeting")
-    end 
+        end 
 	end
+
+    def copyright_generator
+      @copyright = TasteyViewTool::Renderer.copyright 'TasteyFlav', 'All rights reserved'
+    end
 end
 

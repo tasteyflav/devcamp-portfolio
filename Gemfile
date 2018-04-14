@@ -57,4 +57,5 @@ gem 'sprockets-rails', :require => 'sprockets/railtie'
 gem 'bootstrap', '~> 4.0.0'
 gem 'jquery-rails'
 
+gem 'tastey_view_tool', git: 'https://github.com/tasteyflav/tastey_view_tool'
 ruby "2.3.5"
