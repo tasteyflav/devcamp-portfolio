@@ -58,4 +58,6 @@ gem 'bootstrap', '~> 4.0.0'
 gem 'jquery-rails'
 
 gem 'tastey_view_tool', git: 'https://github.com/tasteyflav/tastey_view_tool'
+
+gem 'petergate', '~> 1.8', '>= 1.8.1'
 ruby "2.3.5"
