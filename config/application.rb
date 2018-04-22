@@ -23,7 +23,7 @@ module DevcampPortfolio
     config.load_defaults 5.1
     config.secret_key_base = ENV["SECRET_KEY_BASE"]
     config.i18n.default_locale = :'ja'
-
+    config.eager_load_paths << "#{Rails.root}/lib"
     
 
     # Settings in config/environments/* take precedence over those specified here.
