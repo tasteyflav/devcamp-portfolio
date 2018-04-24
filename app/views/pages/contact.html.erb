@@ -1,15 +1,19 @@
-<div class="row">
-	<div class="col-md-6">
+<div class="app-card-container">
+	<div class="card">
 
-		<h1>Pages#contact          lkjdflkadsj;lkjasd;lasdj;laskdfj;l            </h1> 
-		<p><%= number_to_phone "5555555555"  %></p> 
-		<p><%= number_to_currency("5555555555")  %></p> 
+		<h1>Contact Information</h1>
+		<div class="row">
+			<div class="col-md-4"> 
+				<p><%= number_to_phone "5555555555"  %></p> 
+				<p><%= number_to_currency("5555555555")  %></p> 
 
-		<p><%= number_to_percentage("80.4")  %></p> 
+				<p><%= number_to_percentage("80.4")  %></p> 
 
-		<p><%= number_with_delimiter("12321654654987987")  %></p> 
-	</div>
-	<div class="col-md-6">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d564.6036122271742!2d135.51027207616272!3d34.51636514485948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000da0c251121c5%3A0xb0b0810446932915!2s953-1+Higashiyama%2C+Naka-ku%2C+Sakai-shi%2C+%C5%8Csaka-fu+599-8247!5e0!3m2!1sen!2sjp!4v1523765351489" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<p><%= number_with_delimiter("12321654654987987")  %></p> 
+			</div>
+			<div class="col-md-8">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d564.6036122271742!2d135.51027207616272!3d34.51636514485948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000da0c251121c5%3A0xb0b0810446932915!2s953-1+Higashiyama%2C+Naka-ku%2C+Sakai-shi%2C+%C5%8Csaka-fu+599-8247!5e0!3m2!1sen!2sjp!4v1523765351489" width="400" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+		</div>
 	</div>
 </div>

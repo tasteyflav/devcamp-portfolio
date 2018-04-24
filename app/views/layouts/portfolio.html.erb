@@ -6,7 +6,11 @@
     <title><%= @page_title %></title>
     <%= csrf_meta_tags %>
 
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Slab" rel="stylesheet">
+
     <META name="keywords" content = "<%= @seo_keywords %>"/>
+
+    <%= favicon_link_tag 'favicons/fav.ico' %>
 
     <%= stylesheet_link_tag    'portfolios', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
@@ -23,6 +27,5 @@
 
     <%= alerts %>
 
-    <%= source_helper("portfolio") %>
   </body>
 </html>
